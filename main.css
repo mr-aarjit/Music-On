@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.card{
+    margin-top: 50px;
+    margin-left: 90px;
+
+}
+
+#image_for_body{
+    border:  solid 1px white, blue, green, yellow ;
+    }
+
+#Image{
+    padding-left: 1px;
+    border-radius: 100px;
+    padding-right: 1px;
+    padding-top: 1px;
+    padding-bottom: 0px;
+    background: linear-gradient(to right, blue, cyan , aqua, lightblue, lightgreen,  red);
+}
+
+.card h1{
+    margin-bottom: 10px;
+    font-family: 'Berkshire Swash';
+    font-weight: 100;
+    margin-left: -10px;
+      background: linear-gradient(45deg, #ff00ff, #00ffff, #ff9900);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.card h2{
+    font-size: 25px;
+    font-family: "Jacques Francois Shadow";
+    color: rgb(189, 207, 230); 
+    font-weight: 10;
+
+}

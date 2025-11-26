@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: whitesmoke;;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background: #000000fa;
+}
+
+header{
+    background: linear-gradient(to bottom, black,  #00000081);
+    border-radius: 10px 55px;
+    padding-bottom: 10px;
+    box-shadow:  1px 1px 1px 1px rgb(0, 132, 255), 2px 2px 12px 4px rgba(0, 162, 255, 0.582);
+}
+
+
+nav, aside{
+    display: flex;
+}
+
+#header-logo{
+    margin-left: 50px;
+    margin-top: 15px;
+    font-size: 2.45em;
+    color: white;
+    letter-spacing: 2px;
+    font-family: 'Quintessential';
+    cursor: pointer;
+}
+
+#header-logo:hover{
+    
+    text-shadow: blue 1px 2px 3px, palevioletred 4px 5px 6px;
+}
+
+#first-anchor{
+    margin-left: 460px;
+    
+}
+
+
+#nav-a{
+    display: flex;
+    justify-content: end;
+    gap: 60px;
+    margin-top: 33px;
+    color: whitesmoke ;
+    font-family: 'Grenze';
+    font-size: 20px;
+   
+}
+
+#nav-a a{
+    padding-left:  7px;
+    padding-right: 7px;
+    padding-top: 5px;
+    transition: ease-in-out 0.5s all;
+    border-radius: 10px;
+    text-decoration: none;
+    
+}
+
+#nav-a a:hover{
+    background: linear-gradient(135deg,rgb(0, 81, 255),white );
+    transform: scale(1.2);
+    color: black;
+    
+}
+
+.anchor{
+    cursor: pointer;
+}
+
+br{
+    color: blue;
+}
+
